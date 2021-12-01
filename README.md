@@ -22,6 +22,8 @@ https://learn.sparkfun.com/tutorials/designing-pcbs-smd-footprints
 https://learn.sparkfun.com/tutorials/designing-pcbs-advanced-smd
 
 
+### 1. **Dec 14 - Dec 21** : First steps into the board design
+
 
 ## Software team's progress
 
@@ -39,3 +41,4 @@ https://cfi-electronics-club.github.io/articles/pages/Easy/OLED%20display.html
 
 https://cfi-electronics-club.github.io/articles/pages/Basics/Communication%20Protocols.html
 
+### 1. **Dec 14 - Dec 21** : 
