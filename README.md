@@ -22,8 +22,9 @@ https://learn.sparkfun.com/tutorials/designing-pcbs-smd-footprints
 https://learn.sparkfun.com/tutorials/designing-pcbs-advanced-smd
 
 
-### 1. **Dec 14 - Dec 21** : First steps into the board design
+### 2. **Dec 14 - Dec 21** : First steps into the board design
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Software team's progress
 
