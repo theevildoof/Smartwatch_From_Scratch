@@ -29,6 +29,8 @@ https://learn.sparkfun.com/tutorials/designing-pcbs-advanced-smd
 
 Resources:
 
+Use this simulator: https://wokwi.com/arduino/new?template=esp32
+
 https://cfi-electronics-club.github.io/articles/pages/Easy/Dual%20Core%20Processing.html
 
 https://cfi-electronics-club.github.io/articles/pages/Easy/Deep%20Sleep.html
