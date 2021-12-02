@@ -21,6 +21,8 @@ https://learn.sparkfun.com/tutorials/designing-pcbs-smd-footprints
 
 https://learn.sparkfun.com/tutorials/designing-pcbs-advanced-smd
 
+Signup on cadlab.io using **SMAIL** and acknowledge in the Whatsapp group
+
 
 ### 2. **Dec 14 - Dec 21** : First steps into the board design
 
