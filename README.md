@@ -16,6 +16,8 @@ https://robu.in/product/raspberry-pi-rp2040/
 
 https://robu.in/product/pimoroni-tiny-2040/
 
+https://robu.in/product/pcf8563-rtc-board-raspberry-pi-real-time-clock-module-blue/
+
 
 ## Hardware team's progress
 
