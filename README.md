@@ -6,9 +6,15 @@ This is a project to build a smartwatch from scratch. The Progress will be updat
 
 Parts list:
 
+https://www.tenettech.com/product/gc9a01-1-28-inch-round-lcd-module
 
+https://robu.in/product/waveshare-2-inch-lcd-display-module-240x320/
 
+https://robu.in/product/max30100-pulse-oximeter-heart-rate-sensor-module/
 
+https://robu.in/product/raspberry-pi-rp2040/
+
+https://robu.in/product/pimoroni-tiny-2040/
 
 
 ## Hardware team's progress
