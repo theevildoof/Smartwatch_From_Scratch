@@ -42,4 +42,7 @@ https://cfi-electronics-club.github.io/articles/pages/Easy/OLED%20display.html
 
 https://cfi-electronics-club.github.io/articles/pages/Basics/Communication%20Protocols.html
 
+https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz
+
+
 ### 1. **Dec 14 - Dec 21** : 
