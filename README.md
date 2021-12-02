@@ -66,3 +66,13 @@ https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz
 
 
 ### 1. **Dec 14 - Dec 21** : 
+
+
+---
+
+## 1st iteration
+- battery not needed(hw)
+- no extra features other than keeping time(sw)
+- simply oled 128x64 0.96 display(hw)
+- is rtc needed?(hw)
+- what microcontroller needed
