@@ -18,6 +18,9 @@
 #include "BluetoothSerial.h"
 //rtc
 #include "RTClib.h"
+#include <ESPmDNS.h>
+#include <WiFiUdp.h>
+#include <ArduinoOTA.h>
 
 //bmp
 Adafruit_BMP280 bmp(&Wire1);
@@ -54,6 +57,7 @@ int backState = 0;
 void setup() {
   Serial.begin(115200);
   Wire1.begin(27,26, 100000);
+  ota_setup();
    LCD_setup();
   button_setup();
   bmp_setup();

@@ -44,11 +44,8 @@ void ota_menu(){
   
 }
 
-void ota_setup(){
-  
-}
-
 void ota_loop(){
+  
   while(1){
     leftState = digitalRead(left);
     rightState = digitalRead(right);
@@ -78,7 +75,8 @@ void ota_loop(){
     green_led();
     ota_menu();
     
-    }  
+    } 
+    ArduinoOTA.handle(); 
   tft.fillScreen(0x0000);
   tft.setTextSize(3);
   tft.setCursor(20 , tft.height()/2 - 20);

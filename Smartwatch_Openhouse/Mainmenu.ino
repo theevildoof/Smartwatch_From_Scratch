@@ -34,6 +34,7 @@ void main_menu1() {
     Serial.print("back");
     red_led();
     }  
+    ArduinoOTA.handle();
   DateTime now = rtc.now();
   tft.setCursor(0, 0);
   tft.fillScreen(ST77XX_BLACK);
@@ -43,7 +44,9 @@ void main_menu1() {
   tft.setTextColor(ST77XX_YELLOW);
   tft.setTextSize(10);
   tft.println(now.minute(), DEC);
+  ArduinoOTA.handle();
   delay(100);
+  ArduinoOTA.handle();
     
   }
   
