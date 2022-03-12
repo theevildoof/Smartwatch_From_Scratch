@@ -10,7 +10,7 @@ void ping_pong_menu(){
     delay(500);
     Serial.print("LEFT");
     green_led();
-    laser_menu();
+    steps_menu();
     
     }
     else if(rightState == HIGH) {
@@ -54,17 +54,19 @@ void ping_pong_loop(){
     delay(500);
     Serial.print("LEFT");
     red_led();
-    
+    buzzer_red();
     }
     else if(rightState == HIGH) {
     delay(500);
     Serial.print("right");
     red_led();
+    buzzer_red();
     }
     else if (selectState == HIGH) {
     delay(500);
     Serial.print("select");
     red_led();
+    buzzer_red();
     
     }
     else if (backState == HIGH) {

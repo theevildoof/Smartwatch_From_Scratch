@@ -1,24 +1,20 @@
+#define BUZZER_PIN 16 // ESP32 GIOP21 pin connected to Buzzer's pin
 
-  int freq = 2000;
-  int channel = 0;
-  int resolution = 8;
- // need to solve this
+void buzzer_setup() {
+  ledcAttachPin(BUZZER_PIN, 1);
+  ledcSetup(1, 200, 8);
+}
   
-void buzzer_setup(){
-  pinMode(17, OUTPUT);
-  ledcSetup(3, 8000, 12);
-  ledcAttachPin(17, 3);
-  Serial.println("BUZZER SETUP COMPLETE");
-}
-
-void buzzer_green(){
-   ledcWriteTone(3, 500);
-   Serial.println("BUZZER GREEN");
-   delay(1000);
-}
 
 void buzzer_red(){
-  ledcWriteTone(3, 500);
+  ledcWrite(1, 50);
+  delay(500);
+  ledcWrite(1, 0);
+  delay(100);
+  ledcWrite(1, 50);
+  delay(500);
+  ledcWrite(1, 0);
+  delay(100);
 }
 
   

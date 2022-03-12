@@ -56,18 +56,19 @@ void ota_loop(){
     delay(500);
     Serial.print("LEFT");
     red_led();
-    
+    buzzer_red();
     }
     else if(rightState == HIGH) {
     delay(500);
     Serial.print("right");
     red_led();
+    buzzer_red();
     }
     else if (selectState == HIGH) {
     delay(500);
     Serial.print("select");
     red_led();
-    
+    buzzer_red();
     }
     else if (backState == HIGH) {
     delay(500);

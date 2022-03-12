@@ -45,6 +45,9 @@ void max_heartrate_menu(){
 }
 
 void max_heartrate_loop(){
+  uint32_t irBuffer[100]; //infrared LED sensor data
+  uint32_t redBuffer[100];
+
   while(1){
     leftState = digitalRead(left);
     rightState = digitalRead(right);
@@ -55,17 +58,20 @@ void max_heartrate_loop(){
     delay(500);
     Serial.print("LEFT");
     red_led();
+     buzzer_red();
     
     }
     else if(rightState == HIGH) {
     delay(500);
     Serial.print("right");
     red_led();
+     buzzer_red();
     }
     else if (selectState == HIGH) {
     delay(500);
     Serial.print("select");
     red_led();
+     buzzer_red();
     
     }
     else if (backState == HIGH) {

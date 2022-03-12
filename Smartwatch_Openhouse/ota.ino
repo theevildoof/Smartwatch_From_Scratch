@@ -3,11 +3,14 @@ void ota_setup()
   Serial.println("Booting");
   WiFi.mode(WIFI_STA);
   WiFi.begin(ssid, password);
-  while (WiFi.waitForConnectResult() != WL_CONNECTED) {
-    Serial.println("Connection Failed! Rebooting...");
-    delay(10000);
-    ESP.restart();
+   delay(5000);
+  if (WiFi.waitForConnectResult() != WL_CONNECTED) {
+   
+    Serial.println("Connection Failed!");
   }
+    
+    
+ 
 
   // Port defaults to 3232
   // ArduinoOTA.setPort(3232);

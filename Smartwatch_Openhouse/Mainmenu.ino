@@ -28,11 +28,13 @@ void main_menu1() {
     delay(500);
     Serial.print("select");
     red_led();
+     buzzer_red();
     }
     else if (backState == HIGH) {
     delay(500);
     Serial.print("back");
     red_led();
+     buzzer_red();
     }  
     ArduinoOTA.handle();
   DateTime now = rtc.now();

@@ -22,6 +22,12 @@
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
 
+#include "spo2_algorithm.h"
+
+#define MAX_BRIGHTNESS 255
+
+
+
 //bmp
 Adafruit_BMP280 bmp(&Wire1);
 //MPU variables
@@ -63,12 +69,12 @@ void setup() {
   bmp_setup();
   max_setup();
   mpu_setup();
-  laser_setup();
   buzzer_setup();
   led_setup();
 
 }
 
 void loop() {
-  main_menu1();
+  //main_menu1();
+  buzzer_red();
 }
