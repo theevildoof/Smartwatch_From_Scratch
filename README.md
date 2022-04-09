@@ -76,6 +76,8 @@ https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz
 - simply oled 128x64 0.96 display(hw)
 - is rtc needed?(hw)
 - what microcontroller needed
+## Research
+https://docs.google.com/document/d/1AofbaLmKGv1GQlwON90-IMTsZlFRl982ZVy9IKKyZ2Y/edit?usp=sharing 
 
-Photo:
+## Protoype's Photo:
 ![IMG_20220312_173344](https://user-images.githubusercontent.com/72989277/159627005-4d004d11-81ac-4cb8-9ce6-e08db041c183.jpg)
